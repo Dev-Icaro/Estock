@@ -1,0 +1,200 @@
+:root {
+   --primary: #1D1F26;
+   --secondary: #3D405B;
+   --accent: #E07A5F;
+   --background: #0A0908;
+   --text: #FFFFFF;
+}
+
+/* :root {
+   --primary: #FFFFFF;
+   --secondary: #D9D9D9;
+   --accent: #E07A5F;
+   --background: #F5F5F5;
+   --text: #1D1F26;
+} */
+
+/* :root {
+   --primary: #112D4E;
+   --secondary: #1B3A5E; 
+   --accent: #3282B8;
+   --background: #090C10;
+   --text:  #FFFFFF;
+}
+
+:root {
+   --primary: #2F2E41;
+   --secondary: #524F62; 
+   --accent: #8D80AD;
+   --background: #1C1B26;
+   --text:  #FFFFFF;
+} */
+
+nav {
+   padding: 5px 20px;
+   background-color: var(--primary);
+   box-shadow: 1px 1px 9px black;
+}
+
+a {
+   text-decoration: none;
+   color: var(--text);
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+ul {
+   list-style-type: none;
+}
+
+.menu li {
+   padding: 15px 5px;
+}
+
+.menu li a {
+   display: block;
+}
+
+.logo a {
+   font-size: 20px;
+}
+
+/* Mobile menu */
+.menu {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.toggle {
+   order: 1;
+   cursor: pointer;
+}
+
+.item.button {
+   order: 2;
+}
+
+.item.button a:hover, .logo a:hover {
+   text-decoration: none;
+}
+
+.item {
+   width: 100%;
+   text-align: center;
+   order: 3;
+   display: none;
+}
+
+.item.active {
+   display: block;
+}
+
+.hamburguer {
+   background: var(--text);
+   display: inline-block;
+   height: 2px;
+   position: relative;
+   width: 18px;
+}
+
+.hamburguer::before, .hamburguer::after {
+   background: var(--text);
+   content: "";
+   display: inline-block;
+   height: 2px;
+   position: absolute;
+   width: 18px;
+}
+
+.hamburguer::before {
+   top: 5px;
+}
+
+.hamburguer::after {
+   top: -5px;
+}
+
+@media all and (min-width: 468px) {
+
+   .menu {
+      justify-content: center;
+   }
+
+   .logo {
+      flex: 1;
+      height: 64px;
+   }
+
+   .item.button {
+      width: auto;
+      order: 1;
+      display: block;
+   }
+
+   .toggle {
+      display: flex;
+
+      order: 2;
+   }
+
+   .button.signup {
+      border: 0;
+   }
+
+   .button a {
+      padding: 7px 15px;
+      background: var(--accent);
+      border: 1px solid var(--accent);
+      border-radius: 50em;
+      transition: all 0.25s
+   }
+
+   .button a:hover {
+      background: #D76E54;
+   }
+
+   .button.signup a {
+      background: transparent;
+   }
+
+   .button.signup a:hover {
+      border: 1px solid #D76E54;
+      color: #ddd;
+   }
+}
+
+@media all and (min-width: 768px) {
+
+   .hamburguer {
+      display: none;
+   }
+
+   .logo {
+      order: 0;
+   }
+
+   .item {
+      display: block;
+      width: auto;
+      order: 1;
+   }
+
+   .button {
+      order: 2;
+   }
+
+   .menu li {
+      padding: 15px 10px;
+   }
+
+   .menu li.button {
+      padding-right: 0;
+   }
+}
+
+
+

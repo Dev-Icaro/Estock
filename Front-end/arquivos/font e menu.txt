@@ -1,0 +1,52 @@
+Cosmic Contrast:
+
+Dark Mode:
+Primary: #1D1F26
+Secondary: #3D405B
+Accent: #E07A5F
+Background: #0A0908
+Text: #FFFFFF
+
+Light Mode:
+Primary: #FFFFFF
+Secondary: #D9D9D9
+Accent: #E07A5F
+Background: #F5F5F5
+Text: #1D1F26
+
+
+Midnight Blues:
+
+Dark Mode:
+Primary: #112D4E
+Secondary: #1B3A5E
+Accent: #3282B8
+Background: #090C10
+Text: #FFFFFF
+
+Light Mode:
+Primary: #FFFFFF
+Secondary: #D9D9D9
+Accent: #3282B8
+Background: #F5F5F5
+Text: #112D4E
+
+
+Subtle Elegance:
+
+Dark Mode:
+Primary: #2F2E41
+Secondary: #524F62
+Accent: #8D80AD
+Background: #1C1B26
+Text: #FFFFFF
+
+Light Mode:
+Primary: #FFFFFF
+Secondary: #D9D9D9
+Accent: #8D80AD
+Background: #F5F5F5
+Text: #2F2E41
+
+
+https://www.youtube.com/watch?v=6pidsgeLLzE
